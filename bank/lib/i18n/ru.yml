@@ -1,0 +1,10 @@
+transaction:
+  started: "[%1] Начало транзакции"
+  ended: "[%1] Окончание транзакции"
+account:
+  info: "Владелец счёта: %1 (%2). Текущий баланс: $%3."
+  transfer: !!gender
+    male: '%2 перевёл %3 $%4'
+    female: '%2 перевела %3 $%4'
+errors:
+  not_enough_money_for_withdrawal: '[ОШИБКА] На счету недостаточно средств для снятия!'

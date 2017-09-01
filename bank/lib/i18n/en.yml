@@ -1,0 +1,9 @@
+transaction:
+  started: "[%1] Transaction started"
+  ended: "[%1] Transaction ended"
+account:
+  info: "Account's owner: %1 (%2). Current balance: $%3."
+  transfer: !!gender
+    base: "%2 transferred $%4 to %3."
+errors:
+  not_enough_money_for_withdrawal: '[ERROR] This account does not have enough money to withdraw!'
